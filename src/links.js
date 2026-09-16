@@ -15,8 +15,8 @@ export const links = [
     title: "Site web",
     subtitle: "Découvrez tous nos services",
     url: "https://alloala.suffeitulapospro.com/",
-    icon: "globe",
-    brand: false, // icône générique teintée navy/orange
+    image: "/logo.png", // logo principal à la place de l'icône globe
+    brand: true,
   },
   {
     id: "play",

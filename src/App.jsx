@@ -3,11 +3,15 @@ import { iconMap, Phone, Chevron, Scooter } from "./Icons";
 import "./App.css";
 
 function LinkRow({ item }) {
-  const Icon = iconMap[item.icon];
+  const Icon = item.icon ? iconMap[item.icon] : null;
   return (
     <a className="row" href={item.url} target="_blank" rel="noopener noreferrer">
       <span className={`icn ${item.brand ? "brand" : "navy"}`}>
-        <Icon />
+        {item.image ? (
+          <img src={item.image} alt="" className="icn-img" />
+        ) : (
+          <Icon />
+        )}
       </span>
       <span className="body">
         <span className="t1">{item.title}</span>
