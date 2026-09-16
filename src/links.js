@@ -4,9 +4,9 @@
 
 export const phone = {
   // Format international, sans espaces (pour que l'appel fonctionne)
-  tel: "+21629149990",
+  tel: "+21629149330",
   // Format affiché à l'écran
-  display: "29 149 990",
+  display: "29 149 330",
 };
 
 export const links = [
@@ -14,7 +14,7 @@ export const links = [
     id: "site",
     title: "Site web",
     subtitle: "Découvrez tous nos services",
-    url: "https://allo-ala.tn",
+    url: "https://alloala.suffeitulapospro.com/",
     icon: "globe",
     brand: false, // icône générique teintée navy/orange
   },
@@ -38,7 +38,7 @@ export const links = [
     id: "instagram",
     title: "Instagram",
     subtitle: "Suivez notre actualité",
-    url: "https://instagram.com/allo.ala",
+    url: "https://www.instagram.com/alloala_sbeitla/",
     icon: "instagram",
     brand: true,
   },
@@ -46,7 +46,7 @@ export const links = [
     id: "facebook",
     title: "Facebook",
     subtitle: "Rejoignez notre page",
-    url: "https://facebook.com/alloala",
+    url: "https://www.facebook.com/profile.php?id=61594596262719",
     icon: "facebook",
     brand: true,
   },
@@ -54,7 +54,7 @@ export const links = [
     id: "tiktok",
     title: "TikTok",
     subtitle: "Nos coulisses en vidéo",
-    url: "https://tiktok.com/@allo.ala",
+    url: "https://www.tiktok.com/@alloala766",
     icon: "tiktok",
     brand: true,
   },

@@ -129,18 +129,18 @@ export const iconMap = {
 ---------------------------------------------------------------- */
 export const Scooter = () => (
   <svg viewBox="0 0 64 40" className="scooter-svg" aria-hidden="true">
-    <path d="M2 15h9M0 21h7M2 27h9" stroke="#0E2A5C" strokeWidth="2" strokeLinecap="round" opacity="0.3" />
-    <rect x="13" y="9" width="14" height="13" rx="2.4" fill="#EF6C1C" />
+    <path className="sc-lines" d="M2 15h9M0 21h7M2 27h9" strokeWidth="2" strokeLinecap="round" />
+    <rect className="sc-box" x="13" y="9" width="14" height="13" rx="2.4" />
     <rect x="15.5" y="12" width="9" height="1.6" rx="0.8" fill="#fff" opacity="0.6" />
     <path
+      className="sc-body"
       d="M25 27c0-1.2.9-2.2 2.1-2.2h5.6l3.6-7.4h7.6l2.9 5.7c3 .1 5.3 2 5.3 5 0 .7-.1 1.3-.4 1.9H25.6a5 5 0 0 1-.6-2z"
-      fill="#0E2A5C"
     />
-    <circle cx="38.5" cy="9.6" r="3.1" fill="#0E2A5C" />
-    <path d="M38.5 13c-2.1 0-3.3 1.9-3.3 4v4.4" stroke="#0E2A5C" strokeWidth="2.3" strokeLinecap="round" fill="none" />
-    <circle cx="30" cy="31" r="4.3" fill="#10213F" />
+    <circle className="sc-body" cx="38.5" cy="9.6" r="3.1" />
+    <path className="sc-arm" d="M38.5 13c-2.1 0-3.3 1.9-3.3 4v4.4" strokeWidth="2.3" strokeLinecap="round" fill="none" />
+    <circle className="sc-wheel" cx="30" cy="31" r="4.3" />
     <circle cx="30" cy="31" r="1.7" fill="#fff" />
-    <circle cx="50" cy="31" r="4.3" fill="#10213F" />
+    <circle className="sc-wheel" cx="50" cy="31" r="4.3" />
     <circle cx="50" cy="31" r="1.7" fill="#fff" />
   </svg>
 );
